@@ -20,3 +20,20 @@ Hypermedia as the engine of application state (HATEOAS): Resources contain hyper
 # USAGE
 RESTful APIs are widely used due to their simplicity, scalability, and compatibility with the HTTP protocol, making them suitable for a variety of applications and devices.
 Developers interact with REST APIs by sending HTTP requests (such as GET, POST, PUT, DELETE) to specific endpoints (URLs) that represent resources, and the server responds with the requested data or performs the specified actions.
+
+
+# METHODS
+
+**GET**: Requests data from a specified resource. It should only retrieve data and should not modify anything on the server.
+
+**POST**: Submits data to be processed to a specified resource. It's often used for creating new resources or sending data that will result in some kind of processing on the server.
+
+**PUT**: Updates a specified resource with the request payload. It replaces the entire resource if it exists or creates it if it doesn't.
+
+**PATCH**: Applies partial modifications to a resource. It's similar to PUT but is used to apply partial updates rather than replacing the entire resource.
+
+**DELETE**: Deletes the specified resource.
+
+**OPTIONS**: Requests information about the communication options available for the target resource. It's often used to inquire about the supported methods on a resource.
+
+**HEAD**: Requests the headers that would be returned if the HEAD request's URL were instead requested using a GET method. It's useful for checking resources' metadata without retrieving the entire content.
