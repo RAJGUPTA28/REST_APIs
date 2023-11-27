@@ -1,4 +1,7 @@
 # REST API
+----
+https://realpython.com/api-integration-in-python/
+---
 REST (Representational State Transfer) is an architectural style for designing networked applications. It's commonly used in the development of web services such as APIs (Application Programming Interfaces). RESTful APIs adhere to a set of principles that emphasize a stateless client-server relationship, a uniform interface, and resource-based interactions.
 
 ---- 
