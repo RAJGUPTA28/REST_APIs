@@ -33,6 +33,16 @@ Developers interact with REST APIs by sending HTTP requests (such as GET, POST, 
 - **OPTIONS**: Requests information about the communication options available for the target resource. It's often used to inquire about the supported methods on a resource.
 - **HEAD**: Requests the headers that would be returned if the HEAD request's URL were instead requested using a GET method. It's useful for checking resources' metadata without retrieving the entire content.
 
+# STATUS CODES
+Status code	Description
+|200 | OK	Your request was successful! |
+|201 | Created	Your request was accepted, and the resource was created. |
+|400 | Bad Request	Your request is either wrong or missing some information. |
+|401 | Unauthorized	Your request requires some additional permissions. |
+|404  |Not Found	The requested resource doesn’t exist.|
+|405| Method Not Allowed	The endpoint doesn’t allow for that specific HTTP method. |
+|500 |Internal Server Error	Your request wasn’t expected and probably broke something on the server side.|
+
  # INSTALLATION
 ```bash
 $ python -m pip install requests
