@@ -32,3 +32,8 @@ Developers interact with REST APIs by sending HTTP requests (such as GET, POST, 
 - **DELETE**: Deletes the specified resource.
 - **OPTIONS**: Requests information about the communication options available for the target resource. It's often used to inquire about the supported methods on a resource.
 - **HEAD**: Requests the headers that would be returned if the HEAD request's URL were instead requested using a GET method. It's useful for checking resources' metadata without retrieving the entire content.
+
+ # INSTALLATION
+ '''
+ $ python -m pip install requests
+ '''
