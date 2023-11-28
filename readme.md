@@ -35,4 +35,5 @@ Developers interact with REST APIs by sending HTTP requests (such as GET, POST, 
 
  # INSTALLATION
  ```bash
-$ python -m pip install requests '''
+$ python -m pip install requests
+'''
