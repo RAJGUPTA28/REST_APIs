@@ -31,3 +31,9 @@ todo = {"title": "Mow lawn"}
 response = requests.patch(api_url, json=todo)
 response.json()
 #{'userId': 1, 'id': 10, 'title': 'Mow lawn', 'completed': True}
+
+
+#DELETE
+api_url = "https://jsonplaceholder.typicode.com/todos/10"
+response = requests.delete(api_url)
+response.json()
