@@ -35,6 +35,7 @@ Developers interact with REST APIs by sending HTTP requests (such as GET, POST, 
 - **HEAD**: Requests the headers that would be returned if the HEAD request's URL were instead requested using a GET method. It's useful for checking resources' metadata without retrieving the entire content.
 
 ![IMG](https://github.com/RAJGUPTA28/Python-REST_APIs/blob/main/rest-api.png)
+![IMG](https://github.com/RAJGUPTA28/Python-REST_APIs/blob/main/rest2.webp)
 # STATUS CODES
 Status code	Description
 |200 | OK	Your request was successful! |
