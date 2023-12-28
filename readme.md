@@ -61,3 +61,12 @@ $ python -m pip install requests
 - 100 Continue
 - 101 Switching Protocols
 - 102 Processing
+
+**2) 200 Series**
+(The client accepts the Request, being processed successfully at the server)
+
+- 200 – OK
+- 201 – Created
+- 202 – Accepted
+- 203 – Non-Authoritative Information
+- 204 – No Content
