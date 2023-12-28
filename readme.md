@@ -49,5 +49,7 @@ Status code	Description
  # INSTALLATION
 ```bash
 $ python -m pip install requests
+```
 
 
+# Rest API Response Codes
