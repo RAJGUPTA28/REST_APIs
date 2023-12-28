@@ -53,9 +53,11 @@ $ python -m pip install requests
 
 
 # Rest API Response Codes
-#1) 100 Series
+---
+
+**1) 100 Series**
 These are temporary Responses
 
-100 Continue
-101 Switching Protocols
-102 Processing
+- 100 Continue
+- 101 Switching Protocols
+- 102 Processing
