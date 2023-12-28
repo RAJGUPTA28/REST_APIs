@@ -56,7 +56,7 @@ $ python -m pip install requests
 ---
 
 **1) 100 Series**
-These are temporary Responses
+ (These are temporary Responses)
 
 - 100 Continue
 - 101 Switching Protocols
