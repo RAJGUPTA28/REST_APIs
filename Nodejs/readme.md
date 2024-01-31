@@ -1,1 +1,6 @@
 # Nodejs API
+- GET
+- PUT
+- POST
+- PATCH
+- DELETE
