@@ -1,3 +1,8 @@
+#max transfer
+import requests
+
+pname = 'Bob Martin'
+cityname = 'Bourg'
 
 
 link = 'https://jsonmock.hackerrank.com/api/transactions'
